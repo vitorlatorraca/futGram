@@ -13,8 +13,10 @@ import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { useForm } from "react-hook-form"
 import { SignupValidation } from "@/lib/validation"
+import Loader from "@/components/ui/shared/Loader"
 
 const SignupForm = () => {
+  const isLoading = false;
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof SignupValidation>>({
@@ -40,7 +42,7 @@ const SignupForm = () => {
           <img src="/assets/images/logo.svg" alt="logo" />
 
           <h2 className="h3-bold md:h2-bold pt-5 sm:pt-12">Create a new account</h2>
-          <p className="text-light-3 small-medium md:base-regular mt-2"> To use Futgram use your account details</p>
+          <p className="text-light-3 small-medium md:base-regular mt-2"> To use Futgram, please use your account details</p>
 
 
 
@@ -97,7 +99,13 @@ const SignupForm = () => {
               </FormItem>
             )}
           />
-          <Button type="submit" className="shad-button_primary">Submit</Button>
+          <Button type="submit" className="shad-button_primary">
+            {isLoading ? (
+              <div className="flex-center gap-2">
+              < Loader /> Loading...
+              </div>
+            ): "Sign up"}
+          </Button>
         </form>
         </div>
       </Form>
