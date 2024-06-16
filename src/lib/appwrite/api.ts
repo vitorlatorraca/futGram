@@ -1,6 +1,6 @@
 import { ID } from 'appwrite';
 import { INewUser } from "@/types";
-import { account } from './config';
+import { account, avatars } from './config';
 
 export async function createUserAccount(user: INewUser) {
     try {
@@ -10,10 +10,33 @@ export async function createUserAccount(user: INewUser) {
             user.password,
             user.name 
         );
-        // Retornar o novo usuário criado
-        return newAccount;
+
+        if(!newAccount) throw Error;
+
+        const avatarUrl = avatars.getInitials(user.name);
+
+        const newUser = await saveUserToDB({
+            accountId: newAccount.$id,
+            name: newAccount.name,
+            email: newAccount.email,
+            username: user.username,
+            imageUrl: avatarUrl,
+        })
+
+
+        return newUser;
     } catch (error) {
-        console.error("Failed to create user account:", error);
-        throw error;  // Lançar o erro para ser tratado na camada de chamada
+        console.error(error);
+        return error;
     }
+}
+
+export async function saveUserToDB(user: {
+    accountId: string;
+    email: string;
+    name: string; 
+    imageUrl: URL;
+    username?: string;
+}) {
+
 }
