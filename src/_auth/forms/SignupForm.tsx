@@ -16,10 +16,13 @@ import { SignupValidation } from "@/lib/validation"
 import Loader from "@/components/ui/shared/Loader"
 import { Link } from "react-router-dom"
 import { createUserAccount } from "@/lib/appwrite/api"
+import { useCreateUserAccountMutation } from "@/lib/react-query/queriesAndMutations"
 
 const SignupForm = () => {
   const { toast } = useToast()
-  const isLoading = false;
+
+
+  const { mutateAsync: createUserAccount, isLoading: isCreatingUser } = useCreateUserAccountMutation();
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof SignupValidation>>({
@@ -31,9 +34,6 @@ const SignupForm = () => {
       password: '',
     },
   })
-
-  const ( mutateAsync: createUserAccount, isLoading:
-    isCreatingAccount ) = useCreateUserAccountMutation();
 
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof SignupValidation>) {
@@ -112,7 +112,7 @@ const SignupForm = () => {
             )}
           />
           <Button type="submit" className="shad-button_primary">
-            {isLoading ? (
+            {isCreatingUser ? (
               <div className="flex-center gap-2">
               < Loader /> Loading...
               </div>
