@@ -13,7 +13,7 @@ export const useCreateUserAccount = () => {
     });
 }
 
-export const useSignInrAccount = () => {
+export const useSignInAccount = () => {
     return useMutation({
         mutationFn: (user: {
             email: string;
