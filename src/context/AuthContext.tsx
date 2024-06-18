@@ -1,3 +1,4 @@
+import { getCurrentUser } from '@/lib/appwrite/api';
 import { createContext, useContext, useEffect, useState} from 'react'
 
 export const INITAL_USER ={
@@ -29,14 +30,37 @@ const AuthProvider = ({ children }: { children: React.ReactNode}) => {
     const checkAuthUser = async () => {};{
     try {
         const currentAccount = await getCurrentUser();
+
+        if(currentAccount) {
+            setUser({
+                id: currentAccount.$id,
+                name: currentAccount.name,
+                username: currentAccount.username,
+                email: currentAccount.email,
+                imageUrl: currentAccount.imageUrl,
+                bio: currentAccount.bio,
+            })
+
+            setIsAuthenticated(true);
+
+            return true;
+        }
+
+        return false;
     } catch (error) {
         console.log(error);
         return false;
-    } finally (
+    } finally {
         setIsLoading(false);
-    )
 }
+};
 
+useEffect(() => {
+    if(
+        localStorage.getItem('cookieFallback' === '[]' ||
+        localStorage.getItem('cookieFallback') === null)
+        )
+}, []);
 
     const value = {
         user,
