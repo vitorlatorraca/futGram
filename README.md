@@ -1,9 +1,3 @@
-<div align="center">
-  <br />
-    <a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/social_media_app/assets/151519281/be514a19-3cbb-48b7-9acd-2cf4d2e319c4" alt="Banner do Projeto">
-    </a>
-  <br />
 
   <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
@@ -93,8 +87,4 @@ Certifique-se de ter instalado o seguinte em sua máquina:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Clonando o Repositório**
-
-```bash
-git clone https://github.com/adrianhajdin/social_media_app.git
-cd social_media_app
+]
