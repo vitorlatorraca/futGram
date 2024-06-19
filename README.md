@@ -24,13 +24,6 @@
 6. 🔗 [Links](#links)
 7. 🚀 [Mais](#mais)
 
-## 🚨 Tutorial
-
-Este repositório contém o código correspondente a um tutorial detalhado disponível em nosso canal no YouTube, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-Se você prefere aprender visualmente, este é o recurso ideal para você. Siga nosso tutorial para aprender a construir projetos como este passo a passo, de forma amigável para iniciantes!
-
-<a href="https://youtu.be/_W3R2VwRyF4?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introdução">🤖 Introdução</a>
 
