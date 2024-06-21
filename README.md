@@ -9,9 +9,7 @@
 
   <h3 align="center">Uma Aplicação de Mídia Social</h3>
 
-   <div align="center">
-     Construa este projeto passo a passo com nosso tutorial detalhado no <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Junte-se à família JSM!
-    </div>
+
 </div>
 
 ## 📋 <a name="table">Índice</a>
@@ -66,7 +64,7 @@ Se você está começando e precisa de ajuda ou encontrar algum bug, junte-se à
 
 👉 **Backend como Serviço (BaaS) - Appwrite**: Utilize o Appwrite como uma solução de Backend como Serviço para desenvolvimento de backend simplificado, oferecendo recursos como autenticação, banco de dados, armazenamento de arquivos e muito mais
 
-e muito mais, incluindo arquitetura de código e reutilização
+e muito mais, incluindo arquitetura de código e reutilização.
 
 ## <a name="início-rápido">🤸 Início Rápido</a>
 
