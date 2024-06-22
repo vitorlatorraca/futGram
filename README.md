@@ -73,6 +73,6 @@ Certifique-se de ter instalado o seguinte em sua máquina:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [npm](https://www.npmjs.com/) 
 
 ]
