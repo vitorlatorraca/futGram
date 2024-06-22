@@ -65,7 +65,7 @@ e muito mais, incluindo arquitetura de código e reutilização.
 
 ## <a name="início-rápido">🤸 Início Rápido</a>
 
-Siga estas etapas para configurar o projeto localmente em sua máquina.
+Siga estas etapas para configurar o projeto localmente em sua máquina!
 
 **Pré-requisitos**
 
