@@ -25,9 +25,6 @@
 
 ## <a name="introdução">🤖 Introdução</a>
 
-Explore mídias sociais com esta plataforma amigável que possui um ótimo visual e muitos recursos. Crie e explore postagens facilmente, aproveite um sistema de autenticação robusto e a recuperação rápida de dados usando React Query para uma experiência do usuário suave.
-
-Se você está começando e precisa de ajuda ou encontrar algum bug, junte-se à nossa comunidade ativa no Discord com mais de 27.000 membros. É um lugar onde as pessoas se ajudam mutuamente.
 
 <a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
