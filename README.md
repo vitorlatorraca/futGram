@@ -8,6 +8,7 @@
   </div>
 
   <h3 align="center">Uma Aplicação de Mídia Social!</h3>
+    <h3 align="center">A social Midia App!</h3>
 
 
 </div>
