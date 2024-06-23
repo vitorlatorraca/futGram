@@ -22,7 +22,7 @@
 4. 🤸 [Início Rápido](#início-rápido)
 5. 🕸️ [Trechos de Código](#trechos-de-código)
 6. 🔗 [Links](#links)
-7. 🚀 [Mais](#mais)
+
 
 
 ## <a name="introdução">🤖 Introdução</a>
