@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/-Typescript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
   </div>
 
-  <h3 align="center">Uma Aplicação de Mídia Social</h3>
+  <h3 align="center">Uma Aplicação de Mídia Social!</h3>
 
 
 </div>
