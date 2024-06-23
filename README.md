@@ -39,27 +39,27 @@
 
 ## <a name="recursos">🔋 Recursos</a>
 
-👉 **Sistema de Autenticação**: Um sistema de autenticação robusto garantindo segurança e privacidade do usuário
+👉 **Sistema de Autenticação**: Um sistema de autenticação robusto garantindo segurança e privacidade do usuário.
 
-👉 **Página de Exploração**: Página inicial para os usuários explorarem postagens, com uma seção destacada para os principais criadores
+👉 **Página de Exploração**: Página inicial para os usuários explorarem postagens, com uma seção destacada para os principais criadores.
 
-👉 **Funcionalidades de Curtir e Salvar**: Permite aos usuários curtir e salvar postagens, com páginas dedicadas para gerenciar conteúdos curtidos e salvos
+👉 **Funcionalidades de Curtir e Salvar**: Permite aos usuários curtir e salvar postagens, com páginas dedicadas para gerenciar .conteúdos curtidos e salvos
 
-👉 **Página Detalhada de Postagem**: Uma página detalhada de postagem exibindo conteúdos e postagens relacionadas para uma experiência imersiva do usuário
+👉 **Página Detalhada de Postagem**: Uma página detalhada de postagem exibindo conteúdos e postagens relacionadas para uma experiência imersiva do usuário.
 
-👉 **Página de Perfil**: Uma página de perfil do usuário mostrando postagens curtidas e oferecendo opções para editar o perfil
+👉 **Página de Perfil**: Uma página de perfil do usuário mostrando postagens curtidas e oferecendo opções para editar o perfil.
 
-👉 **Navegar por Outros Usuários**: Permitir que os usuários naveguem e explorem perfis e postagens de outros usuários
+👉 **Navegar por Outros Usuários**: Permitir que os usuários naveguem e explorem perfis e postagens de outros usuários.
 
-👉 **Página de Criação de Postagem**: Implemente uma página amigável para criação de postagens com gerenciamento fácil de arquivos, armazenamento e recurso de arrastar e soltar
+👉 **Página de Criação de Postagem**: Implemente uma página amigável para criação de postagens com gerenciamento fácil de arquivos, armazenamento e recurso de arrastar e soltar.
 
-👉 **Funcionalidade de Edição de Postagem**: Fornece aos usuários a capacidade de editar o conteúdo de suas postagens a qualquer momento
+👉 **Funcionalidade de Edição de Postagem**: Fornece aos usuários a capacidade de editar o conteúdo de suas postagens a qualquer momento.
 
-👉 **Interface de Usuário Responsiva com Barra Inferior**: Uma interface de usuário responsiva com uma barra inferior, melhorando a sensação de aplicativo móvel para navegação sem problemas
+👉 **Interface de Usuário Responsiva com Barra Inferior**: Uma interface de usuário responsiva com uma barra inferior, melhorando a sensação de aplicativo móvel para navegação sem problemas.
 
-👉 **Integração do React Query**: Incorpora a biblioteca de recuperação de dados React Query (Tanstack Query) para, Cache automático para melhorar o desempenho, Consultas paralelas para recuperação eficiente de dados, Mutations de primeira classe, etc
+👉 **Integração do React Query**: Incorpora a biblioteca de recuperação de dados React Query (Tanstack Query) para, Cache automático para melhorar o desempenho, Consultas paralelas para recuperação eficiente de dados, Mutations de primeira classe, etc.
 
-👉 **Backend como Serviço (BaaS) - Appwrite**: Utilize o Appwrite como uma solução de Backend como Serviço para desenvolvimento de backend simplificado, oferecendo recursos como autenticação, banco de dados, armazenamento de arquivos e muito mais
+👉 **Backend como Serviço (BaaS) - Appwrite**: Utilize o Appwrite como uma solução de Backend como Serviço para desenvolvimento de backend simplificado, oferecendo recursos como autenticação, banco de dados, armazenamento de arquivos e muito mais.
 
 e muito mais, incluindo arquitetura de código e reutilização.
 
