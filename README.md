@@ -72,7 +72,7 @@ Siga estas etapas para configurar o projeto localmente em sua máquina!
 
 **Pré-requisitos**
 
-Certifique-se de ter instalado o seguinte em sua máquina:
+Certifique-se de ter instalado o seguinte em sua máquina: (use o terminal do VSCODE)
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
