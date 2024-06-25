@@ -46,7 +46,7 @@
 
 👉 **Página de Exploração**: Página inicial para os usuários explorarem postagens, com uma seção destacada para os principais criadores.
 
-👉 **Funcionalidades de Curtir e Salvar**: Permite aos usuários curtir e salvar postagens, com páginas dedicadas para gerenciar .conteúdos curtidos e salvos
+👉 **Funcionalidades de Curtir e Salvar**: Permite aos usuários curtir e salvar postagens, com páginas dedicadas para gerenciar .conteúdos curtidos e salvos.
 
 👉 **Página Detalhada de Postagem**: Uma página detalhada de postagem exibindo conteúdos e postagens relacionadas para uma experiência imersiva do usuário.
 
