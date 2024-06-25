@@ -64,7 +64,7 @@
 
 👉 **Backend como Serviço (BaaS) - Appwrite**: Utilize o Appwrite como uma solução de Backend como Serviço para desenvolvimento de backend simplificado, oferecendo recursos como autenticação, banco de dados, armazenamento de arquivos e muito mais.
 
-e muito mais, incluindo arquitetura de código e reutilização.
+E muito mais, incluindo arquitetura de código e reutilização.
 
 ## <a name="início-rápido">🤸 Início Rápido</a>
 
