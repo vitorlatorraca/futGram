@@ -38,6 +38,7 @@
 - TypeScript
 - Shadcn
 - Tailwind CSS
+- CSS
 
 ## <a name="recursos">🔋 Recursos</a>
 
