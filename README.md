@@ -42,7 +42,7 @@
 
 ## <a name="recursos">🔋 Recursos</a>
 
-👉 **Sistema de Autenticação**: Um sistema de autenticação robusto garantindo segurança e privacidade do usuário.
+👉 **Sistema de Autenticação**: Um sistema de autenticação robusto garantindo segurança e privacidade do usuário!
 
 👉 **Página de Exploração**: Página inicial para os usuários explorarem postagens, com uma seção destacada para os principais criadores.
 
